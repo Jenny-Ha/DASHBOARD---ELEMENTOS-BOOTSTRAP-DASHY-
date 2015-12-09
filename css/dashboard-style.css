@@ -1,0 +1,11 @@
+* {
+	outline: 2px solid rgba(0,0,250,.3);
+}
+
+.item-icons {
+	padding-bottom: 56%; // This is the aspect ratio
+	height: 0;
+}
+iframe{
+	width: 100%;
+}
