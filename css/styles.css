@@ -8,6 +8,9 @@ ul {
 iframe{
 	width: 100%;
 }
+.fa {
+	margin-right: 5px!important; 
+}
 
 /**/
 #topbar {
@@ -15,9 +18,7 @@ iframe{
 	color:#fff;
 }
 /*PAG LOGIN*/
-.login i {
-	margin-right: 5px;
-}
+
 .login-social-link button {
 	margin:0px 5px 15px;
 
