@@ -1,0 +1,27 @@
+* {
+	outline: 2px solid rgba(0,0,250,.3);
+}
+/*Estilos Generales*/
+ul {
+	padding: 0;
+}
+iframe{
+	width: 100%;
+}
+
+/**/
+#topbar {
+	background: #424A5D;
+	color:#fff;
+}
+/*PAG LOGIN*/
+.login-social-link button {
+	margin:0px 5px 15px;
+
+}
+
+/*PAG GALLERY*/
+.item-galeria {
+	padding-right: 10%;
+	margin-bottom: 2em; /*mejorar como se ve*/
+}

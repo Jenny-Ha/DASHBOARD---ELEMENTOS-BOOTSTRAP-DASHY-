@@ -13,7 +13,7 @@
     <link href="css/font-awesome.css" rel="stylesheet" />
     <link href="css/adventure-time-theme.css" rel="stylesheet">
     <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/dashboard-style.css">
+    <link rel="stylesheet" href="css/styles.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -26,11 +26,14 @@
     
     
     <div id="container">
-        <div id="top_menu">
+        <div id="topbar">
           <nav>
             <ul>
               <li>
-                <a href="#"><span class="fa fa-bars"></span></a>
+                <a href="#menu" class="fa fa-bars">
+                  <span class=" hidden-xs">ADVENTURE TIME:DASHBOARD</span>
+                  <span class="hidden-lg visible-xs">ADV. TIME</span>
+                </a>
               </li>
             </ul>
           </nav>
@@ -38,16 +41,18 @@
         </div>
         <!--Sección MENU LATERAL-->
         <div id="sidebar">
-          <img src="img/profile_avatar.png" alt="Imagen profile">
+          <div>
+            <img src="img/profile_avatar.png" alt="Imagen profile" class="img-responsive">
+          </div>
           <h5>Bonnibel Bubblegum</h5>
           <ul>
             <li><a href="#"><span class="fa fa-dashboard"></span>Dashboard</a></li>
-            <li><a href="#"><span class="fa fa-dashboard"></span>Buttons</a></li>
-            <li><a href="#"><span class="fa fa-dashboard"></span>Progress Bars</a></li>
-            <li><a href="#"><span class="fa fa-dashboard"></span>Forms</a></li>
-            <li><a href="#"><span class="fa fa-dashboard"></span>Data Tables</a></li>
-            <li><a href="#"><span class="fa fa-dashboard"></span>Gallery</a></li>
-            <li><a href="#"><span class="fa fa-dashboard"></span>Login Page</a></li>
+            <li><a href="#"><span class="fa fa-desktop"></span>Buttons</a></li>
+            <li><a href="#"><span class="fa fa-desktop"></span>Progress Bars</a></li>
+            <li><a href="#"><span class="fa fa-cogs"></span>Forms</a></li>
+            <li><a href="#"><span class="fa fa-th"></span>Data Tables</a></li>
+            <li><a href="#"><span class="fa fa-tasks"></span>Gallery</a></li>
+            <li><a href="#"><span class="fa fa-book"></span>Login Page</a></li>
           </ul>
         </div>
         
@@ -79,7 +84,7 @@
 
                 <div class="col-sm-2">
                   <div class="item-icons text-center">
-                    <span class="fa fa-hashtag"></span>
+                    <span class="fa fa-asterisk"></span>
                     <p>+10</p>
                   </div>
                 </div>
@@ -157,7 +162,7 @@
             </div>
             <!--fin contenido -->
 
-            <!--Seccion SIDEBAR-->
+            <!--Seccion ASIDE-->
             <div class="aside col-sm-3">
               <div class="news">
                 <h4 class="text-center">CANDY KINGDOM NEWS</h4>
@@ -290,7 +295,7 @@
             </div>
             <!--Fin aside-->
         </div>
-      </div>
+    </div> <!--fin CONTAINER-->
       
   
 
