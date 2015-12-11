@@ -18,10 +18,11 @@ iframe{
 	color:#fff;
 }
 /*PAG LOGIN*/
-
+.registration .btn {
+	width: 100%;
+}
 .login-social-link button {
 	margin:0px 5px 15px;
-
 }
 
 /*PAG GALLERY*/
