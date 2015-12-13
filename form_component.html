@@ -31,30 +31,28 @@
       <div id="main-content">
         <div class="Form container-fluid">
           <h3><i class="fa fa-chevron-right "></i> Form Components</h3>
+
           <div class="showback">
-            <h4><i class="fa fa-chevron-right "></i>Form Elements</h3>
-            
+            <h4><i class="fa fa-chevron-right "></i>Form Elements</h4>
+
             <div class="form-horizontal style-form">
               <form role="form">
-                <div class="form-group row">
-                  <div class="col-xs-2">
-                    <label for="default">Default</label>
+                <div class="form-group">
+                  <label for="default" class="col-xs-3">Default</label>
+                  <div class="col-xs-9">
+                    <input type="text" class="form-control" id="default">
                   </div>
-                  <div class="col-xs-10">
-                    <input type="text" class="form-control col-xs-10" id="default">
-                  </div>
+                </div>
               </form>
             </div>
             
             <div class="form-horizontal style-form">
               <form role="form">
-                <div class="form-group row">
-                  <div class="col-xs-2">
-                    <label for="default">Help text</label>
-                  </div>
-                  <div class="col-xs-10">
-                    <input type="text" class="form-control col-xs-10" id="default">
-                    <p>A block of help text that breaks onto a new line and may extend beyond one line</p>
+                <div class="form-group">
+                  <label for="default" class="col-xs-3">Help text</label>
+                  <div class="col-xs-9">
+                    <input type="text" class="form-control" id="default">
+                    <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line</span class="help-block">
                   </div>
                 </div>
               </form>
@@ -62,12 +60,10 @@
 
             <div class="form-horizontal style-form">
               <form role="form">
-                <div class="form-group row">
-                  <div class="col-xs-2">
-                    <label for="default">Rounder</label>
-                  </div>
-                  <div class="col-xs-10">
-                    <input type="default" class="form-control round-form col-xs-10" id="default">
+                <div class="form-group">
+                  <label for="default" class="col-xs-3">Rounder</label>
+                  <div class="col-xs-9">
+                    <input type="default" class="form-control round-form" id="default">
                   </div>
                 </div>
               </form>
@@ -76,11 +72,9 @@
             <div class="form-horizontal style-form">
               <form role="form">
                 <div class="form-group row">
-                  <div class="col-xs-2">
-                    <label for="default">Input focus</label>
-                  </div>
-                  <div class="col-xs-10">
-                    <input type="default" placeholder="This is focused" class="form-control col-xs-10" id="default">
+                  <label for="focusedInput" class="col-xs-3">Input focus</label>
+                  <div class="col-xs-9">
+                    <input type="default" placeholder="This is focused" class="form-control" id="focusedInput">
                   </div>
                 </div>
               </form>
@@ -88,12 +82,10 @@
 
             <div class="form-horizontal style-form">
               <form role="form">
-                <div class="form-group row">
-                  <div class="col-xs-2">
-                    <label for="default">Disabled</label>
-                  </div>
-                  <div class="col-xs-10">
-                    <input type="default" placeholder="Disabled input here..." class="form-control col-xs-10" id="default">
+                <div class="form-group">
+                  <label for="default" class="col-xs-3">Disabled</label>
+                  <div class="col-xs-9">
+                    <input type="default" placeholder="Disabled input here..." class="form-control" id="default" disabled>
                   </div>
                 </div>
               </form>
@@ -101,12 +93,10 @@
 
             <div class="form-horizontal style-form">
               <form role="form">
-                <div class="form-group row">
-                  <div class="col-xs-2">
-                    <label for="default">Placeholder</label>
-                  </div>
-                  <div class="col-xs-10">
-                    <input type="default" placeholder="Placeholder" class="form-control col-xs-10" id="default">
+                <div class="form-group">
+                  <label for="default" class="col-xs-3">Placeholder</label>
+                  <div class="col-xs-9">
+                    <input type="default" placeholder="Placeholder" class="form-control" id="default">
                   </div>
                 </div>
               </form>
@@ -114,12 +104,10 @@
 
             <div class="form-horizontal style-form">
               <form role="form">
-                <div class="form-group row">
-                  <div class="col-xs-2">
-                    <label for="default">Password</label>
-                  </div>
-                  <div class="col-xs-10">
-                    <input type="password" class="form-control col-xs-10" id="default">
+                <div class="form-group">
+                  <label for="default" class="col-xs-3">Password</label>
+                  <div class="col-xs-9">
+                    <input type="password" class="form-control" id="default">
                   </div>
                 </div>
               </form>
@@ -127,22 +115,110 @@
             
             <div class="form-horizontal style-form">
               <form role="form">
-                <div class="form-group row">
-                  <div class="col-xs-2">
-                    <label for="default">Static control</label>
-                  </div>
-                  <div class="col-xs-10">
-                    <input type="default" placeholder="Disabled input here..." class="form-control col-xs-10" id="default">
+                <div class="form-group">
+                  <label for="default" class="col-xs-3">Static control</label>
+                  <div class="col-xs-9">
+                    <p class="form-control-static">email@example.com</p>
                   </div>
                 </div>
               </form>
             </div>
           </div><!--fin SHOWBACK-->
+          
+          <div class="showback">
+            <h4><i class="fa fa-chevron-right "></i>Inline Form</h4>
 
+            <form class="form-inline" role="form">
+              <div class="form-group">
+                <label class="sr-only" for="email">Email</label>
+                <input type="email" class="form-control" placeholder="Enter email" id="email" >
+                <label class="sr-only" for="pass">Email</label>
+                <input type="password" class="form-control" placeholder="Password" id="pass" >
+                <input type="submit" value="Sign in" class="btn">
+              </div>
+            </form>
+          </div>
+          
+          <div class="showback">
+            <h4><i class="fa fa-chevron-right "></i>Input Messages</h4>     
+            
+            <form class="form-horizontal" role="form">
+              <div class="form-group has-success">
+                <label for="inputSuccess" class="control-label col-xs-3">Input with sucess</label>
+                <div class="col-xs-9">
+                  <input type="text" class="form-control"id="inputSuccess">
+                </div>            
+              </div>
+
+              <div class="form-group has-warning">
+                <label for="inputWarning" class="control-label col-xs-3">Input with warning</label>
+                <div class="col-xs-9">
+                  <input type="text" class="form-control"id="inputWarning">
+                </div>            
+              </div>
+
+              <div class="form-group has-error">
+                <label for="inputError" class="control-label col-xs-3">Input with error</label>
+                <div class="col-xs-9">
+                  <input type="text" class="form-control"id="inputError">
+                </div>            
+              </div>
+            </form>
+          </div>
+
+          <div class="showback">
+            <h4><i class="fa fa-chevron-right"></i>Checkboxes, Radios & Selects</h4> 
+
+              <div class="style-form">
+                <div class="form-group">
+                  <div class="checkbox">
+                    <label><input type="checkbox"> Option one is this that - be sure to include why it's great</label>
+                  </div>
+                  <div class="radio">
+                    <label><input type="radio" name="optradio" checked> Option one is this that - be sure to include why it's great</label>
+                  </div>
+                  <div class="radio">
+                    <label><input type="radio" name="optradio"> Option two can be something else and selecting it will deselect option one</label>
+                  </div>
+                </div>
+              </div>
+
+            <div class="style-form">
+              <div class="form-group">
+                <label class="checkbox-inline"><input type="checkbox">1</label>
+                <label class="checkbox-inline"><input type="checkbox">2</label>
+                <label class="checkbox-inline"><input type="checkbox">3</label>
+              </div>
+            </div>
+            
+            <div>
+              <form role="form">
+                <div class="form-group">
+                  <label for="Select1" class="sr-only">Selección1</label>
+                  <select class="form-control" id="Select1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                  </select>
+                  <br>
+                  <label for="Select2" class="sr-only">Selección2</label>
+                  <select multiple class="form-control" id="Select2">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>  
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
-      </div>
+      </div><!--fin Main content-->
 
     </div><!--fin #CONTAINER-->
+    
    
 
     <!-- js placed at the end of the document so the pages load faster -->
