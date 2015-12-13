@@ -30,3 +30,8 @@ iframe{
 	padding-right: 10%;
 	margin-bottom: 2em; /*mejorar como se ve*/
 }
+/*PAG TABLES*/
+table .btn {
+	font-size: 75%;
+	padding: 3px 5px;
+}
