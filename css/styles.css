@@ -1,4 +1,5 @@
 * {
+	outline: 2px solid rgba(0,0,250,.3)
 }
 /*Estilos Generales*/
 ul {
@@ -7,16 +8,27 @@ ul {
 iframe{
 	width: 100%;
 }
-.fa {
-	margin-right: 5px!important; 
-}
 
-/**/
-#topbar {
-	background: #424A5D;
-	color:#fff;
-	min-height: 60px;
-	z-index: 1002;
+/**DASHBOARD**/
+.details > p > a {
+	text-transform: uppercase;
+}
+.Icons {
+	padding-top: 20px;
+}
+.desc .time, .desc .estado {
+	text-transform: uppercase;
+	font-style: italic;
+}
+.thumb img {
+	height: 30px;
+}
+/*TOP MENU*/
+ul.top-menu  {
+	margin-top: 20px;
+}
+a.logo {
+	margin-right: 10px;
 }
 /*PAG LOGIN*/
 .registration .btn {

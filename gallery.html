@@ -24,12 +24,59 @@
   <body>
 
     <div id="container">
-      <!--Temporalmente dejar de lado el menu-->
-
+      <!--inicio MENU TOP-->
+      <div class="header black-bg">
+        <a href="#" class="logo">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="dashboard.html" class="logo">
+          <p class="hidden-xs">ADVENTURE TIME:DASHBOARD
+          <p class="hidden-lg visible-xs">ADV. TIME</p>
+        </a>
+        <ul class="top-menu pull-right">
+          <li>
+            <a href="login.html" class="logout">Logout</a>
+          </li>
+        </ul>
+      </div>
+      <!--Sección MENU LATERAL-->
+      <aside>
+        <div id="sidebar">
+          <ul class="sidebar-menu">
+            <div class="text-center">
+              <a href="#">
+                <img src="img/profile_avatar.png" alt="Imagen profile" width="30%">
+              </a>
+            </div>
+            <h5 class="text-center">Bonnibel Bubblegum</h5>
+            <li>
+              <a href="dashboard.html"><i class="fa fa-dashboard"></i>Dashboard</a>
+            </li>
+            <li>
+              <a href="butttons.html"><i class="fa fa-desktop"></i>Buttons</a>
+            </li>
+            <li>
+              <a href="progress.html"><i class="fa fa-desktop"></i>Progress Bars</a>
+            </li>
+            <li>
+              <a href="form_component.html"><i class="fa fa-cogs"></i>Forms</a>
+            </li>
+            <li>
+              <a href="basic_tables.html"><i class="fa fa-th"></i>Data Tables</a>
+            </li>
+            <li>
+              <a href="gallery.html"  class="active"><i class="fa fa-tasks"></i>Gallery</a>
+            </li>
+            <li>
+              <a href="login.html"><i class="fa fa-book"></i>Login Page</a>
+            </li>
+          </ul>
+        </div> <!--fin #SIDEBAR-->
+      </aside>
       <!--inicio MAIN CONTENT-->
       <div id="main-content">
-        <div class="galeria container-fluid">
-          <h3><i class="fa fa-chevron-right "></i> Gallery</h3>
+        <div class="galeria wrapper">
+          <h3 class="mb"><i class="fa fa-chevron-right "></i> Gallery</h3>
           <!--inicio de galeria de imagenes-->
           <div class="row">
             <div class="item-galeria col-sm-4">
@@ -66,7 +113,6 @@
           </div><!--fin ROW-->
         </div><!-- fin Main-content-->
       </div>
-    
     </div> <!-- fin #CONTAINER-->
 
     <!-- js placed at the end of the document so the pages load faster -->
