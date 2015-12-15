@@ -10,6 +10,21 @@ iframe{
 	width: 100%;
 }
 
+/*TOP MENU*/
+ul.top-menu  {
+	margin-top: 20px;
+}
+a.logo {
+	margin-right: 10px;
+}
+
+/*PAG LOGIN*/
+.registration .btn {
+	width: 100%;
+}
+.login-social-link button {
+	margin:0px 5px 15px;
+}
 .footer {
 	background: #424a5d;
     margin-bottom: -15px;
@@ -31,28 +46,18 @@ iframe{
 .Icons {
 	padding-top: 20px;
 }
+.ds {
+	margin-top: 60px;
+}
 .details > p > a {
 	text-transform: uppercase;
-}.desc .time, .desc .estado {
+}
+.desc .time, .desc .estado {
 	text-transform: uppercase;
 	font-style: italic;
 }
 .thumb img {
 	height: 30px;
-}
-/*TOP MENU*/
-ul.top-menu  {
-	margin-top: 20px;
-}
-a.logo {
-	margin-right: 10px;
-}
-/*PAG LOGIN*/
-.registration .btn {
-	width: 100%;
-}
-.login-social-link button {
-	margin:0px 5px 15px;
 }
 
 /*PAG GALLERY*/
@@ -60,6 +65,7 @@ a.logo {
 	padding-right: 10%;
 	margin-bottom: 2em; /*mejorar como se ve*/
 }
+
 /*PAG TABLES*/
 .Tables h4.style-bottom {
 	border-bottom: 1px solid #eff2f7;
