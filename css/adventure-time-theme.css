@@ -1114,3 +1114,82 @@ label {
     background: #ffffff;
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
 }
+///********************ESTILOS PERSONALES********************///
+/*Estilos Generales*/
+ul {
+    padding: 0;
+}
+iframe{
+    width: 100%;
+}
+
+/*TOP MENU*/
+ul.top-menu  {
+    margin-top: 20px;
+}
+a.logo {
+    margin-right: 10px;
+}
+
+/*PAG LOGIN*/
+.registration .btn {
+    width: 100%;
+}
+.login-social-link button {
+    margin:0px 5px 15px;
+}
+.footer {
+    background: #424a5d;
+    margin-bottom: -15px;
+    border-left: 1px solid #293241;
+    color: #eff2f7;
+}
+
+/**DASHBOARD**/
+.box1, .box0 {
+    -webkit-transition: all .35s ease;
+       -moz-transition: all .35s ease;
+        -ms-transition: all .35s ease;
+         -o-transition: all .35s ease;
+            transition: all .35s ease;
+}
+.main-video .buttons .fa{
+    margin: 3px;
+}
+.Icons {
+    padding-top: 20px;
+}
+.ds {
+    margin-top: 60px;
+}
+.details > p > a {
+    text-transform: uppercase;
+}
+.desc .time, .desc .estado {
+    text-transform: uppercase;
+    font-style: italic;
+}
+.thumb img {
+    height: 30px;
+}
+
+/*PAG GALLERY*/
+.item-galeria {
+    padding-right: 10%;
+    margin-bottom: 2em; /*mejorar como se ve*/
+}
+
+/*PAG TABLES*/
+.Tables h4.style-bottom {
+    border-bottom: 1px solid #eff2f7;
+    margin: -15px -15px 20px;
+    padding: 25px 15px;
+}
+.Tables table .btn {
+    font-size: 75%;
+    padding: 3px 5px;
+}
+/*PAG LOGIN*/
+.login-wrap i{
+    margin-right: 4px;
+}
