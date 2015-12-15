@@ -111,14 +111,18 @@
         background-color: #ccc;
         border-color:#ccc ;
     }
-
+    .form-login {
+        margin-top: 0;
+    }
 }
 
 @media (max-width:320px) {
     #top_menu .nav > li, ul.top-menu > li {
         float: right;
     }
-
+    .form-login {
+        margin-top: 0;
+    }
     .hidden-phone {
         display: none !important;
     }
